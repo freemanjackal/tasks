@@ -41,7 +41,7 @@ In order to save time it was created a seeder to populate the task table of the 
  - php artisan db:seed --class=TaskTableSeeder
 
 Finally to run php development server:
-	- php artisan serve
+ - php artisan serve
 
 	It may be be configured Nginx or apache server.
 ## Aditional features, not implemented
