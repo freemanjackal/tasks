@@ -46,4 +46,4 @@ Finally to run php development server:
 
 	It may be be configured Nginx or apache server.
 ## Aditional features, not implemented
-To get projects to which assign the tasks can be done through a one-to-many relationship between projects and tasks. In the case that a task could belong to many projects would be a many-to-many relationship.
+Create projects to which assign the tasks can be done through a one-to-many relationship between projects and tasks. In the case that a task could belong to many projects would be a many-to-many relationship.
