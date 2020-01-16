@@ -9,15 +9,7 @@
 
 ## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling.
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
@@ -36,8 +28,8 @@ Jquery and bootstrap are being used from their respective CDN.
 - Download the project in a local directory
 - Run: composer install
 - Configure in .env file the following fields:
-	- DB_DATABASE, with the name of a clean existing database that will be used by the project, right now it is configured as task.
-	- DB_USERNAME, by default it is root. IMPORTANT, note that if it is used mysql root has no access to localhost by default, so configure another database user or make the needed changes to use root as user.
+	- DB_DATABASE, the name of a clean existing database that will be used by the project, right now it is configured as "tasks".
+	- DB_USERNAME, by default it is root. IMPORTANT, note that if it is going to be used mysql, root has no access to localhost by default, so configure another database user or make the needed changes to use root as user.
 	- DB_PASSWORD: The password of the configured user.
 	If needed in case you use another DB different from MySql
 	- DB_PORT
@@ -48,9 +40,9 @@ With the console in the working directory write
 In order to save time it was created a seeder to populate the task table of the database, execute this command
 	- php artisan db:seed --class=TaskTableSeeder
 
-Finally execute to run php development server:
+Finally to run php development server:
 	- php artisan serve
 
-	It may be be configured and Nginx or apache server.
+	It may be be configured Nginx or apache server.
 ## Aditional features, not implemented
 To get projects to which assign the tasks can be done through a one-to-many relationship between projects and tasks. In the case that a task could belong to many projects would be a many-to-many relationship.
