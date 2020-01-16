@@ -35,7 +35,7 @@ Jquery and bootstrap are being used from their respective CDN.
 	- DB_PORT
 
 With the console in the working directory write 
-	php artisan migrate, to create tables in the database 
+ - php artisan migrate, to create tables in the database 
 
 In order to save time it was created a seeder to populate the task table of the database, execute this command
  - php artisan db:seed --class=TaskTableSeeder
