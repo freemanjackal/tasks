@@ -17,7 +17,8 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 # About Tasks test project
 The project uses Laravel, Jquery and bootstrap.
 Jquery and bootstrap are being used from their respective CDN.
-
+It is used a seeder to populate the database. All the tasks are retrieved and ordered by priorities. Right now the data field is not used, it could be shown in the view but is not.
+Drag and drop taks and save the changes, that In order to no make too many requests are saved all at the same time, it could be done individually every time that a task is droped but that depends  usually on the specific requirements of the project and I found it better this way.   
 ## Requirements
  - php 7
  - mysql or another database supported by Laravel
